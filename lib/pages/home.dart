@@ -23,17 +23,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Home"),
       ),
-      body: Container(
-        child: Column(
-          children: [
-            Container(
-              height: mediaQuery.size.height * 0.8,
-              width: mediaQuery.size.width,
-              child: GoogleMaps() ,
-            )
-          ],
-        ),
-      ),
+      body: GoogleMaps(),
     );
   }
 }
